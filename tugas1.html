@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pertama -Parsya</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /*costume untuk heading 1*/
+        h1{
+            margin: 50px 0px 50px 0px;
+            text-transform: capitalize;
+        }
+
+        /* costume ul menjadi navbar (papan navigasi) */
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: transparent;
+        }
+
+        li{
+            float: left;
+            font-weight: bold;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: 0.3s ease;
+            border-bottom: #ffffff solid 3px;
+        }
+
+        /* saat link di-hover */
+        li a:hover{
+            background-color: #c2e9ff;
+            border-bottom: #1e889e solid 3px;
+        }
+
+        /*costume tabel yg memuat identitas*/
+        .identitas{
+            border-collapse: collapse;
+        }
+
+        .identitas,
+        tr,
+        th,
+        td{
+            padding: 14px;
+        }
+
+        tr:hover {
+            background-color: #e1c3c3;
+            transition: 0.2s ease;
+        }
+
+        /* mengatur Jadwal Pelajaran */
+        .JadwalPelajaran{     
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Makanan Favorit</h2>
+    <ul>
+        <li><a href="">Ice Cream</a></li>
+        <li> <a href="">Popcorn Caramel</a></li>
+        <li><a href="">Chocolate</a></li>
+    </ul>
+    <table class="identitas" border="1">
+        <thead>
+            <tr>
+                <th>Nama :</th>
+                <td>Parsya Nurul Azka</td>
+            </tr>
+            <tr>
+                <th>Umur :</th>
+                <td>16 Tahun</td>
+            </tr>
+            <tr>
+                <th>Hobi :</th>
+                <td>Menyanyi</td>
+            </tr>
+            
+        </thead>
+    </table>
+    <img src="farsya.JPG" alt="" width="190">
+
+
+<h2>Jadwal Pelajaran</h2>
+    <table class="agenda" border="1">
+        <thead>
+             <tr>
+                <th>Senin</th>
+                <th>Selasa</th>
+                <th>Rabu</th>
+                <th>Kamis</th>
+                <th>Jumat</th>
+            </tr>
+            <tr>
+                <td>PP</td>
+                <td>ING</td>
+                <td>BKW</td>
+                <td>KRPL3</td>
+                <td>SUN</td>
+            </tr>
+            <tr>
+                <td>MTK</td>
+                <td>MP</td>
+                <td>ING</td>
+                <td>KRPL2</td>
+                <td>KRPL1</td>
+            </tr>
+            <tr>
+                <td>KRPL1</td>
+                <td>KRPL2</td>
+                <td>INDO</td>
+                <td>PAIBP</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Projek-KK</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </thead>  
+    </table>
+</body>
+
+</html>
